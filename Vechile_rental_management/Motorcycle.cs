@@ -1,5 +1,5 @@
 ﻿using System;
-public class Motorcycle : Vehicle
+public class Motorcycle1 : Vehicle
 {
   public int EngineCapacity{ get; set; }
   public string FuelType{ get; set; }
