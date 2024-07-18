@@ -17,7 +17,7 @@ class Program
 
       rentalAgency.RentVehicle(car, 5);
       rentalAgency.DisplayFleet();
-      Console.WriteLine("Total Revenue: " + rentalAgency.TotalRevenue.ToString("$"));
+      Console.WriteLine("Total Revenue: " + rentalAgency.TotalRevenue.ToString("C"));
 
 
   }
